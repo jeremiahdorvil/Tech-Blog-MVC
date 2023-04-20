@@ -2,15 +2,16 @@ const loginFormHandler = async (event) => {
     event.preventDefault();
   
     // Collect values from the login form
+    const name = document.querySelector("#name-login").value.trim();
     const email = document.querySelector("#email-login").value.trim();
     const password = document.querySelector("#password-login").value.trim();
   
     // fetching to a diff route than signup--might need to update
-    if (email && password) {
+    if (name && email && password) {
       // Send a POST request to the API endpoint
       const response = await fetch("/api/users/login", {
         method: "POST",
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ name, email, password }),
         headers: { "Content-Type": "application/json" },
       });
   
@@ -26,8 +27,4 @@ const loginFormHandler = async (event) => {
   document
     .querySelector(".login-form")
     .addEventListener("submit", loginFormHandler);
-  
-  // if we choose to keep routes the same for login and sign up and hide sign up
-  // const hide = document.querySelector(".sign-up");
-  // hide.setAttribute("class", "hide");
   

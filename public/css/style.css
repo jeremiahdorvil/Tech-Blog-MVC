@@ -1,0 +1,115 @@
+body,
+.btn {
+  font-family: "Space Mono", monospace;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body:before {
+  content: "";
+  background-image: url("../assets/images/geo.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.category-font {
+  /* font-family: "Electrolize", sans-serif; */
+  font-family: "kavoon", cursive;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.login-form,
+.signup-form {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.login,
+.logout {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+i {
+  text-shadow: 1px 1px 1px #332d2d;
+}
+
+.nav-image {
+  width: 50px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  text-shadow: 5px 5px 10px rgba(51, 45, 45, 0.4);
+  color: #332d2d;
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.signup-link {
+  color: #0aaaea;
+  font-weight: bold;
+}
+
+.post-card {
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.post-card:hover {
+  transform: scale(1.0);
+}
+
+.comment-card,
+.user-card {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+}
+
+.user-card {
+  background: #7dce82;
+}
+
+.logo {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.user-card {
+  background-color: #2c598d;
+}
+
+.container {
+  opacity: 1;
+}
+
+#message {
+  padding-bottom: 100px;
+}
