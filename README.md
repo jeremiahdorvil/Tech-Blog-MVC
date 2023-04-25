@@ -7,7 +7,7 @@ This application is a blog that anyone can join to post anything about technolog
 
 ## Display
 
-` ![Homepage Screenshot](./public/utils/images/Homepage.JPG) `
+![Homepage Screenshot](./utils/images/Homepage.JPG)
 
 ## Links
 
