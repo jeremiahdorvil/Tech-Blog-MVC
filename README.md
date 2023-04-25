@@ -15,4 +15,4 @@ Link to my GitHub Repo:
 ` https://github.com/jeremiahdorvil/Tech-Blog-MVC.git `
 
 Link to Heroku Deployment:
-` `
+` https://jeremiah-tech-blog-mvc.herokuapp.com/ `
